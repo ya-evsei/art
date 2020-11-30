@@ -14,7 +14,7 @@
                             <div class="date">29 ноя. (воскресенье) в 12:00</div>
                             <img class="img-fluid pt-2" src="http://placehold.it/400x300/b0b0b0"/>
                             <div class="teacher">Александра Зиннурова</div>
-                            <div class="fprice">Стоимость 2400₽</div>
+                            <div class="full-price">Стоимость 2400₽</div>
                             <div class="price">При оплате заранее 2000₽</div>
                             <div class="places pb-2">Осталось 2 места</div>
                             <a class="btn btn-danger btn-lg" href="#" role="button">ЗАПИСАТЬСЯ</a>
