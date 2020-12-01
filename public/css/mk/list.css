@@ -1,11 +1,25 @@
-.wrapper{
+.wrapper {
     background-color: white;
 }
-.title {
+
+.wrapper .title {
     text-align: center;
     font-size: 2.5rem;
     font-weight: 500;
 }
-#gray{
+
+.wrapper img {
+
+}
+
+#gray {
     background-color: #f1f1f1;
+}
+
+.placeholder {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 75%;
+    background-color: lightgray;
 }
