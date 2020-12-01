@@ -4,18 +4,16 @@
 @endsection
 
 @section('content')
-{{--    {{dump($images)}}--}}
     <section id="gray" class="py-5">
         <div class="container" id="mk-list">
             <div class="row">
                 @foreach($images as $img)
-
                     <div class="col-4 pb-4">
                         <div class="wrapper text-center pb-3">
-                            <div class="title">"Корпоратив"</div>
+                            <div class="title">"{{$img->title}}"</div>
                             <div class="date">29 ноя. (воскресенье) в 12:00</div>
                             <div class="placeholder">
-                                <img class="img-fluid" src="img/thumb/{{$img->getFilename()}}"/>
+                                <img class="img-fluid" src="{{asset($img->src)}}"/>
                             </div>
                             <div class="teacher">Александра Зиннурова</div>
                             <div class="full-price">Стоимость 2400₽</div>
